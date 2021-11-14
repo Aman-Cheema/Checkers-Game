@@ -10,7 +10,7 @@ def main():
     while running:
         # alpha beta algorithm algorithm
         if game.turn == black:
-            evaluation, new_board = alpha_beta_algorithm(game, game.board_object, 1, True, alpha=-float('inf'), beta=float('inf'))
+            evaluation, new_board = alpha_beta_algorithm(game, game.board_object, 4, True, alpha=-float('inf'), beta=float('inf'))
             game.ai_move(new_board)
 
         # check is winner
