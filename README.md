@@ -43,6 +43,7 @@ https://www.youtube.com/watch?v=l-hh51ncgDI&ab_channel=SebastianLague
 - Improve evaluation function, currently using: black_piece - white_piece + ((black_kings - white_kings)*0.5).
 - Implement AI for both pieces, currently only AI impmeneted for black_pieces.
 - Add random function for who starts the game.
+- Need to incorporate stalemate feature, specifically in the case where both players cannot make any more moves. Currently leads to an endless loop.
 
 # Feedback
 - Any feedback would be greatly appreciated. Please send me an email at amancheema6793@gmail.com
